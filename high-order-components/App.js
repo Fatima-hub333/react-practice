@@ -10,3 +10,15 @@ const App = () => {
 
 const PointlessHOC = withExtraPropAdded(App)
 export default PointlessHOC
+
+// import React from "react"
+// import withFavriteNumber from "./withFavoriteNumber"
+// 
+
+// function App(props) {
+//   return (
+//     <div>{props.favoriteNumber}</div>
+//   )
+// }
+
+// export default withFavoriteNumber(App)
